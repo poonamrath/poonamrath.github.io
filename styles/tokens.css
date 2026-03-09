@@ -1,0 +1,25 @@
+:root {
+  --bg: #f7f3ec;
+  --surface: #fffaf2;
+  --text-primary: #2f2a25;
+  --text-secondary: #6b6158;
+  --accent-primary: #8a5a44;
+  --accent-soft: #c79f86;
+  --border: #e6ddd2;
+  --link: #6f3f2b;
+  --link-hover: #4f2c1f;
+  --focus: #c79f86;
+
+  --shadow-soft: 0 8px 20px rgba(47, 42, 37, 0.06);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poonam Rath | Home</title>
+    <meta
+      name="description"
+      content="Personal website of Poonam Rath featuring publications, patents, essays, and contact links."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-nav">
+        <a class="brand" href="index.html">Poonam Rath</a>
+        <button class="menu-btn" data-menu-btn aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+        </button>
+        <ul class="nav-links" data-nav-links>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="patents.html">Patents</a></li>
+          <li><a href="essays.html">Musings</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <h1>Machine learning, scientific inquiry, and reflective writing.</h1>
+            <p>
+              I work at the intersection of research, product-focused machine learning, and thoughtful
+              communication. This site brings together selected publications, patents, and personal essays.
+            </p>
+          </div>
+          <img
+            class="profile-photo-slot"
+            src="images/Poonam%20Rath%20Profile%20Pic.jpeg"
+            alt="Portrait of Poonam Rath"
+          />
+        </div>
+      </section>
+
+      <section class="section home-quick-section">
+        <div class="container">
+          <div class="contact-bar" aria-label="Contact links">
+            <a class="contact-icon-link" href="https://www.linkedin.com/in/poonamrath" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.5v9.5H3.75V8.5h3.19zM5.35 3.2a1.85 1.85 0 1 1 0 3.7 1.85 1.85 0 0 1 0-3.7zM20.25 12.55V18h-3.18v-4.93c0-1.24-.45-2.09-1.57-2.09-.86 0-1.37.58-1.6 1.13-.08.2-.1.48-.1.76V18h-3.19s.04-8.6 0-9.5h3.19v1.35c.42-.65 1.19-1.57 2.9-1.57 2.12 0 3.71 1.38 3.71 4.27z"/>
+              </svg>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a class="contact-icon-link" href="https://github.com/poonamrath" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.2a10 10 0 0 0-3.16 19.49c.5.09.68-.21.68-.48v-1.7c-2.78.61-3.37-1.18-3.37-1.18-.46-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.54 2.35 1.1 2.92.84.09-.66.35-1.1.64-1.36-2.22-.26-4.55-1.11-4.55-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.44-1.3.1-2.7 0 0 .85-.27 2.79 1.02a9.6 9.6 0 0 1 5.08 0c1.94-1.29 2.78-1.02 2.78-1.02.55 1.4.21 2.45.1 2.7.64.7 1.03 1.59 1.03 2.68 0 3.83-2.33 4.66-4.56 4.92.36.31.68.93.68 1.88v2.79c0 .27.18.57.69.47A10 10 0 0 0 12 2.2z"/>
+              </svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+            <a class="contact-icon-link" href="mailto:poonam.rath@gmail.com" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11zm2 0v.2l7 5.13 7-5.13v-.2a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5zm16 2.67-6.41 4.7a2.6 2.6 0 0 1-3.18 0L5 9.17v8.33c0 .27.22.5.5.5h13a.5.5 0 0 0 .5-.5V9.17z"/>
+              </svg>
+              <span class="sr-only">Email</span>
+            </a>
+            <a class="contact-icon-link" href="https://scholar.google.com/citations?user=G-kYXmAAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer" aria-label="Google Scholar" title="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 1.5 9 12 15 22.5 9 12 3zm-7 8.36V15c0 2.5 3.13 4.5 7 4.5s7-2 7-4.5v-3.64l-7 4-7-4z"/>
+              </svg>
+              <span class="sr-only">Google Scholar</span>
+            </a>
+            <a class="contact-icon-link" href="https://patents.justia.com/inventor/poonam-rath" target="_blank" rel="noreferrer" aria-label="Patents" title="Patents">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 21h6v-1.8H9V21zm3-19a6.5 6.5 0 0 0-4.1 11.55c.67.57 1.1 1.28 1.1 2.1V17h6v-1.35c0-.82.43-1.53 1.1-2.1A6.5 6.5 0 0 0 12 2z"/>
+              </svg>
+              <span class="sr-only">Patents</span>
+            </a>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">Personal website built for GitHub Pages.</div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+  </body>
+</html>
